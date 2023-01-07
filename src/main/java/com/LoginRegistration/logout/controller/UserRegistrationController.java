@@ -14,7 +14,7 @@ import com.LoginRegistration.logout.Service.UsernService;
 @RequestMapping("/registration")
 public class UserRegistrationController {
 
-	@Autowired
+	@Autowired(required=false)
 	UsernService service;
 	
 	
