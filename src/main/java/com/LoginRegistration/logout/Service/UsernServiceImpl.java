@@ -22,7 +22,7 @@ import com.LoginRegistration.logout.model.Usern;
 @Service
 public class UsernServiceImpl implements UsernService {
 	
-	@Autowired(required=true)
+	@Autowired(required=false)
 	UsernRepository repository;
 	
 	@Autowired
